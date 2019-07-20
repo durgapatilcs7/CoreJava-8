@@ -12,7 +12,7 @@ public class SupplierExample {
 	public static void main(String[] args) {
 
 		Supplier<Student> supplier = () -> {
-			return new Student("Durga", 2, 3.9, "female", Arrays.asList("swimming", "Singing", "Dancing"));
+			return new Student("Durga", 2, 3.9, "female", Arrays.asList("swimming", "Singing", "Dancing"),20);
 		};
 		
 		Supplier<List<Student>> supplier1 = () -> StudentDatabase.getAllStudents();
