@@ -12,7 +12,7 @@ public class ConsumerMethodReference {
 	
 	static Consumer<Student> c1 = System.out::println;
 	
-	static Consumer<Student> c2 = Student::printActivities;
+	static Consumer<Student> c2 = Student::printListOfActivities;
 	
 	public static void main(String[] args) {
 		
